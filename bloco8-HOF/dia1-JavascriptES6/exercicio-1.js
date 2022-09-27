@@ -9,6 +9,6 @@ const newEmployees = (callback) => {
     id2: callback('Luiza Drumond'), // Nome: Luiza Drumond -> Chame sua função passando o nome Luiza Drumond como parâmetro, substituindo as aspas
     id3: callback('Carla Paiva'), // Nome: Carla Paiva -> Chame sua função passando o nome Carla Paiva como parâmetro, substituindo as aspas
   }
-  return employees;
+  return employees; 
 };
 console.log(newEmployees(geraEmail));
